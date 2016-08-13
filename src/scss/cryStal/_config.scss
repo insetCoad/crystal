@@ -1,0 +1,10 @@
+/*|
+||base config css Applyed for all childs and the document itself
+||*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*| tarGeted - navBer |*/
+$nav-bg: rgba(230, 230, 234, 0.8);
+$nav-shadow:1px 0px 15px 0px black;

@@ -1,0 +1,25 @@
+.tst{
+    padding: 2px;
+    border: 1px red dashed;
+}
+
+@mixin tstBg($opc){
+    background-color: rgba(255, 255, 255, $opc)
+}
+
+.tst-1{
+    @extend .tst;
+    @include tstBg(1);
+}
+.tst-2{
+    @extend .tst;
+    @include tstBg(0.8);
+}
+.tst-3{
+    @extend .tst;
+    @include tstBg(0.6);
+}
+.tst-4{
+    @extend .tst;
+    @include tstBg(0.4);
+}
